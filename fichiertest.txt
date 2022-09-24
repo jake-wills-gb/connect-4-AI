@@ -1,0 +1,70 @@
+test 1 6 7 0 1
+JRR
+RJR
+RJJR
+RJRR
+J
+JJJ
+
+4
+test 2 6 7 0 -1
+JRRJJ
+RJRR
+RRJ
+RJ
+
+JJ
+
+5
+test 3 6 8 0 1
+JRRJJ
+RJRR
+RRJ
+RJ
+
+JJ
+
+
+5
+test 4 6 10 0 -1
+JJR
+RJR
+R
+RRRJ
+JJRJ
+
+RJ
+JR
+
+
+1
+test 5 6 10 0 -1
+JJR
+RJR
+R
+RRRJ
+JJRJ
+
+RJR
+JRRJ
+J
+
+1
+test 6 6 7 0 1
+JJR
+RJ
+
+RRJRR
+JJJRJ
+J
+RRJR
+2
+test 7 6 7 0 -1
+
+RJR
+
+RRJR
+JJJR
+J
+RRJRJ
+4

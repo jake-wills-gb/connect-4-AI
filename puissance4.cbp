@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="puissance4" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/puissance4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="i686-w64-mingw32/include" />
+			<Add directory="i686-w64-mingw32/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/MinGW/lib/libmingw32.a" />
+			<Add library="i686-w64-mingw32/lib/libSDL2_ttf.dll.a" />
+			<Add library="i686-w64-mingw32/lib/libSDL2_ttf.a" />
+			<Add library="i686-w64-mingw32/lib/libSDL2main.a" />
+			<Add library="i686-w64-mingw32/lib/libSDL2.dll.a" />
+			<Add directory="C:/Program Files/SDL2-devel-2.0.5-mingw/SDL2-2.0.5/i686-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="AIpuissance4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="AIpuissance4.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="graphics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="puissance4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="puissance4.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
